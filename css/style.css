@@ -1,0 +1,32 @@
+body{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(128,128,180,1) 33%, rgba(52,118,136,1) 63%, rgba(0,212,255,1) 85%);
+    
+}
+
+#form-nombres, #form-apellidos, #form-telefono, #form-ciudad, select {
+    width: 70%;
+    margin: 10px auto;
+    border: 2px solid #457878;
+    border-radius: 12px;
+    display: block;
+    padding: 8px 0px;
+}
+
+.col{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+    margin: 10px auto;
+}
+
+#form-boton-enviar{
+    background-color: #429827;
+    border-radius: 7px;
+    padding: 10px;
+    display: block;
+    width: 40%;
+    color: white;
+    font-weight: 800;
+}
+
